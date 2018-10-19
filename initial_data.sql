@@ -1,3 +1,4 @@
+heroku pg:psql < schema.sql
 heroku pg:psql < initial_data.sql
 
 -- Countries
