@@ -1,4 +1,4 @@
--- heroku pg:psql < initial_data.sql
+heroku pg:psql < initial_data.sql
 
 -- Countries
 INSERT INTO country (id, name) VALUES (1, 'United States');
